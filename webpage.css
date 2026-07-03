@@ -1,0 +1,592 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+header
+{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+.tophead
+{
+    background-color: #FD6600;
+    padding: 5px 50px;
+    color: #fff;
+    justify-content: center;
+}
+.wall
+{
+    font-size: 20px;
+    padding: 0 15px;
+}
+i.fa-solid.fa-phone 
+{
+    color: #fff;
+    padding-right: 30px;
+    font-size: 20px;
+}
+i.fa-solid.fa-envelope 
+{
+    color: #fff;
+    padding-right: 30px;
+    font-size: 20px;
+}
+i.fa-brands.fa-linkedin-in 
+{
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    left: 535px;
+}
+i.fa-brands.fa-facebook-f 
+{
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    left: 550px;
+}
+i.fa-brands.fa-instagram 
+{
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    left: 565px;
+}
+.logo img
+{
+    width: 60%;
+}
+.menu ul
+{
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li a
+{
+    color: #FD6600;
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.vid video
+{
+    width: 100%;
+}
+.heading
+{
+    color: #515151;
+    text-align: center;
+    padding: 10px;
+}
+.parentbox
+{
+    display: flex;
+    justify-content: center;
+}
+.childbox
+{
+    text-align: center;
+    width: 380px;
+    box-shadow: 5px 5px 20px gray;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+}
+.childbox h2
+{
+    margin: 10px;
+}
+.childbox p
+{
+    text-align: left;
+}
+.heading2
+{
+    color: #FD6600;
+    text-align: center;
+    padding: 10px;
+}
+.parentbox2
+{
+    display: flex;
+    justify-content: center;
+}
+.childbox2
+{
+    text-align: center;
+    width: 22%;
+    height: 500px;
+    box-shadow: 5px 5px 20px gray;
+    padding: 20px;
+    margin: 10px;
+}
+.childbox2 h2
+{
+    margin: 10px;
+    font-size: 20px;
+    color: #FD6600;
+}
+.childbox2 h3
+{
+   margin: 10px;
+   padding: 5px 5px 15px;
+    font-size: 18px;  
+}
+.childbox2 a
+{
+    text-decoration: none;
+    background-color: #3b3465;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 50px;
+}
+.childbox2 p
+{
+    text-align: left;
+    margin-top: 25px;
+}
+.childbox3
+{
+    height: 600px;
+}
+
+/* Icons */
+i.fa-solid.fa-mobile {
+    color: #FD6600;
+    font-size: 50px;
+}
+i.fa-solid.fa-laptop-code {
+    color: #FD6600;
+    font-size: 50px;
+}
+i.fa-solid.fa-cart-shopping{
+    color: #FD6600;
+    font-size: 50px;
+}
+i.fa-solid.fa-network-wired{
+    color: #FD6600;
+    font-size: 50px;
+}
+
+
+
+
+.box1
+{
+    background-color: #FD6600;
+    text-align: center;
+    width: 280px;
+    height: 170px;
+    border-radius: 10px;
+    margin: 5px 30px 30px;
+}
+.box1 h1
+{
+    color: white;
+    font-size: 50px;
+    padding-top: 30px;
+}
+.box1 h3
+{
+    font-size: 15px;
+    color: white;
+}
+.box2
+{
+    background-color: #3b3465;
+    text-align: center;
+    width: 280px;
+    height: 170px;
+    border-radius: 10px;
+    margin: 5px 30px 30px;
+}
+.box2 h1
+{
+   color: white;
+    font-size: 50px;
+    padding-top: 30px; 
+}
+.box2 h3
+{
+     font-size: 15px;
+    color: white;
+}
+.mainbox
+{
+    display: flex;
+}
+.bigbox
+{
+    display: flex;   
+    padding: 20px 50px;
+}
+.para
+{
+    width: 50%;
+}
+.map iframe
+{
+   width: 100%;
+   margin-bottom: 30px;
+}
+footer
+{
+    background-color: #333333;
+    padding: 30px 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+footer a
+{
+    color: #fff;
+    padding: 0 50px;
+}
+
+
+
+
+
+/* About Us page */
+
+.about
+{
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: linear-gradient(#00000086,#00000086),url("office\ teamwork.jpg");
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+.about1
+{
+    color: #fff;
+    text-align: center;
+}
+.about1 h1
+{
+    font-size: 40px;
+}
+.about1 p
+{
+    background-color: black;
+    padding: 30px;
+    margin: 50px;
+    opacity: 50%;
+}
+.enquiree a
+{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #FD6600;
+    padding: 10px 40px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.head1
+{
+    text-align: center;
+    color: #FD6600;
+    margin-top: 30px;
+    font-size: 40px;
+}
+.head2
+{
+    text-align: center;
+    margin-top: 10px;
+}
+.people
+{
+    padding: 30px;
+    width: 80%;
+}
+.people span
+{
+  font-weight: bold;
+}
+.people h1
+{
+    color: #FD6600;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.core img
+{
+    width: 95%;
+    padding-top: 30px;
+}
+.aboutparent
+{
+    display: flex;
+    padding: 20px 50px;
+    justify-content: center;
+    align-items: center;
+}
+.core2 img
+{
+    width: 100%;
+}
+.mission
+{
+    padding: 50px 50px 0;
+    width: 50%;
+}
+.mission h1
+{
+    color: #FD6600;
+}
+.vision img
+{
+    width: 570px;
+    margin-right: 40px;
+    margin-top: 50px;
+}
+
+
+
+
+/* Blog page */
+.blogtext
+{
+    text-align: center;
+    padding: 10px;
+}
+.blogtext a
+{
+    text-decoration: none;
+    color: #FD6600;
+    font-size: 35px;
+    font-weight: bold;
+}
+.blue1
+{
+    width: 28%;
+    height: 540px;
+    background-color: rgb(32, 32, 168);
+    padding: 20px ;
+    border-radius: 10px;
+    margin: 15px;
+}
+.blue1 img
+{
+    width: 340px;
+    margin-bottom: 20px;
+}
+.blue1 a
+{
+    color: white;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+.blue1 p
+{
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.skyblue a
+{
+    background-color: #2575fc;
+    padding: 15px 25px ;
+    border-radius: 5px;
+}
+.bigblue
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* Career page */
+
+.careerimg
+{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#00000086,#00000086),url("career\ book.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.passion
+{
+    color: #fff;
+    text-align: center;
+}
+.passion h1
+{
+    font-size: 40px;
+}
+.passion p
+{
+    background-color: black;
+    padding: 30px;
+    margin: 50px;
+    opacity: 50%;
+}
+.apply a
+{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #FD6600;
+    padding: 10px 40px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.ui
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    bottom: -100px;
+    width: 85%;
+}
+.ui h1 a 
+{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+i.fa-solid.fa-desktop {
+    color: #3b3465;
+    font-size: 50px;
+}
+i.fa-solid.fa-computer {
+    color: #3b3465;
+    font-size: 50px;
+}
+i.fa-solid.fa-mobile-screen {
+    color: #3b3465;
+    font-size: 50px;
+}
+i.fa-solid.fa-user-tie {
+    color: #3b3465;
+    font-size: 50px;
+}
+i.fa-regular.fa-thumbs-up {
+    color: #3b3465;
+    font-size: 50px;
+}
+
+.ui1
+{
+    width: 200px;
+    height: 200px;
+    border: 0.1px solid lightgray;
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 0 0 0 ;
+}
+.purplebox
+{
+    background-color: #3b3465;
+    height: 400px;
+    width: 100%;
+    margin-left: 60px;
+    padding: 50px;
+}
+.purplebox h1
+{
+    color: #fff;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+.purplebox h1 span
+{
+    font-weight: lighter;
+}
+.cv span a
+{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.cv a p
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 0 0 55px;
+    margin-bottom: 60px;
+}
+.maincv
+{
+    display: flex;
+    justify-content: space-between;
+}
+i.fa-brands.fa-square-facebook {
+    font-size: 25px;
+}
+i.fa-brands.fa-square-instagram {
+    font-size: 25px;
+}
+i.fa-regular.fa-envelope {
+    font-size: 25px;
+}
+i.fa-solid.fa-square-phone {
+    font-size: 25px;
+}
+.boximg
+{
+    display: flex;
+    margin: 60px 0;
+}
+.handshake img
+{
+    width: 92.5%;
+}
+.blankspace
+{
+    height: 100px;
+}
+
+
+
+/* contact us */
+
+.contactus a
+{
+    font-size: 50px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.woman
+{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#00000086,#00000086),url("woman\ service.jpg");
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
